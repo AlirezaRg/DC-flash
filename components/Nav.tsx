@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { scrollToSection, scrollToTop } from "@/app/lib/lenisStore";
-import KryntixMark from "./KryntixMark";
+import CodeiishMark from "./CodeiishMark";
 
 // In-page section targets for the centre nav. Ids are set on the matching
 // sections (see the-run / gallery / breakdown / about).
@@ -95,15 +95,15 @@ export default function Nav() {
         href="#top"
         onClick={goToTop}
         className="group flex items-center gap-2.5"
-        aria-label="Kryntix Studio — back to top"
+        aria-label="Codeiish Lab — back to top"
       >
-        <KryntixMark className="h-6 w-auto transition-transform duration-300 group-hover:scale-110" />
+        <CodeiishMark className="h-6 w-auto transition-transform duration-300 group-hover:scale-110" />
         <span className="flex items-baseline gap-1.5 leading-none">
           <span className="display text-[1.15rem] tracking-[0.06em] text-[var(--white)]">
-            KRYNTIX
+            CODEIISH
           </span>
           <span className="mono text-[0.62rem] uppercase tracking-[0.34em] text-[var(--muted-strong)]">
-            Studio
+            Lab
           </span>
         </span>
       </a>
@@ -137,12 +137,12 @@ export default function Nav() {
 
       {/* CTA */}
       <a
-        href="https://kryntixstudio.vercel.app"
+        href="https://www.codeiish.ir"
         target="_blank"
         rel="noopener noreferrer"
         className="mono group inline-flex items-center gap-2 rounded-full border border-[var(--surface-border-glow)] px-5 py-2.5 text-[0.7rem] tracking-[0.14em] text-[var(--accent-2)] transition-[color,background-color,border-color] duration-200 hover:border-[var(--accent-2)] hover:bg-[rgba(255,224,102,0.06)]"
       >
-        VISIT STUDIO
+        VISIT LAB
         <span className="transition-transform duration-200 group-hover:translate-x-0.5">→</span>
       </a>
     </nav>

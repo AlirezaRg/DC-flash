@@ -1,9 +1,9 @@
 "use client";
 
 import { scrollToSection, scrollToTop } from "@/app/lib/lenisStore";
-import KryntixMark from "./KryntixMark";
+import CodeiishMark from "./CodeiishMark";
 
-const HASHTAGS = ["#theflash", "#fanfilm", "#webdesigner", "#webdev", "#kryntixstudio"];
+const HASHTAGS = ["#theflash", "#fanfilm", "#webdesigner", "#webdev", "#codeiishlab"];
 
 const EXPLORE = [
   { label: "The Run", id: "the-run" },
@@ -43,20 +43,20 @@ export default function Footer() {
               type="button"
               onClick={scrollToTop}
               className="group flex items-center gap-2.5 self-start"
-              aria-label="Kryntix Studio — back to top"
+              aria-label="Codeiish Lab — back to top"
             >
-              <KryntixMark className="h-7 w-auto transition-transform duration-300 group-hover:scale-110" />
+              <CodeiishMark className="h-7 w-auto transition-transform duration-300 group-hover:scale-110" />
               <span className="flex items-baseline gap-1.5 leading-none">
                 <span className="display text-xl tracking-[0.06em] text-[var(--white)]">
-                  KRYNTIX
+                  CODEIISH
                 </span>
                 <span className="mono text-[0.66rem] uppercase tracking-[0.34em] text-[var(--muted-strong)]">
-                  Studio
+                  Lab
                 </span>
               </span>
             </button>
             <p className="body-muted max-w-sm text-sm">
-              Part of the Kryntix fan-site series — cinematic scroll experiences that
+              Part of the Codeiish Lab fan-site series — cinematic scroll experiences that
               show what a browser and a scroll bar can really do.
             </p>
           </div>
@@ -84,20 +84,20 @@ export default function Footer() {
               Connect
             </span>
             <a
-              href="https://kryntixstudio.vercel.app"
+              href="https://www.codeiish.ir"
               target="_blank"
               rel="noopener noreferrer"
               className="mono w-fit text-sm tracking-[0.06em] text-[var(--muted-strong)] underline-offset-4 transition-colors hover:text-[var(--white)] hover:underline"
             >
-              kryntixstudio.vercel.app
+              www.codeiish.ir
             </a>
             <a
-              href="https://instagram.com/kryntixstudio"
+              href="https://instagram.com/codeiish"
               target="_blank"
               rel="noopener noreferrer"
               className="mono w-fit text-sm tracking-[0.06em] text-[var(--muted-strong)] underline-offset-4 transition-colors hover:text-[var(--white)] hover:underline"
             >
-              @kryntixstudio on Instagram
+              @codeiish on Instagram
             </a>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function Footer() {
 
         <div className="flex flex-col gap-1 text-[0.7rem] text-[var(--muted)]">
           <span className="mono">
-            © {new Date().getFullYear()} KRYNTIX STUDIO — FAN PROJECT, NOT AFFILIATED WITH WARNER BROS., DC, OR DC STUDIOS
+            © {new Date().getFullYear()} CODEIISH LAB — FAN PROJECT, NOT AFFILIATED WITH WARNER BROS., DC, OR DC STUDIOS
           </span>
           <span className="mono">
             Made for non-commercial fan enjoyment. All Flash-related trademarks belong to their respective owners.

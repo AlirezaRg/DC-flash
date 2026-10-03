@@ -30,7 +30,7 @@ export default function HeroTransition() {
       <div className="velocity-skew relative mx-auto flex max-w-3xl flex-col gap-10">
         <div className="reveal-up flex flex-col gap-5">
           <ScrambleReveal as="span" className="section-kicker">
-            KRYNTIX STUDIO — FOR THE FANS
+            CODEIISH LAB — FOR THE FANS
           </ScrambleReveal>
           <MixedHeadline
             as="h2"
@@ -45,7 +45,7 @@ export default function HeroTransition() {
             split="words"
             className="body-muted max-w-2xl text-[1.05rem]"
           >
-            Kryntix Studio built this site out of pure love for the Scarlet Speedster —
+            Codeiish Lab built this site out of pure love for the Scarlet Speedster —
             the lightning, the heart, the guy who&rsquo;s always running out of time to save
             everyone but himself. Every reveal, every run, every still in the gallery
             above is one tribute, told in scroll instead of a single video.

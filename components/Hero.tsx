@@ -57,7 +57,7 @@ export default function Hero() {
       {/* The visible title is burned into the hero footage (an image), so the
           document needs a real top-level heading for SEO and screen readers.
           Kept off-screen with sr-only rather than duplicated on-screen. */}
-      <h1 className="sr-only">The Flash — a Kryntix Studio fan film</h1>
+      <h1 className="sr-only">The Flash — a Codeiish Lab fan film</h1>
       <ScrollScrubSequence
         framesPath="flash-hero"
         frameCount={FRAME_COUNT}
@@ -101,7 +101,7 @@ export default function Hero() {
         >
           <span className="hud-badge">
             <span className="hud-badge-dot" />
-            KRYNTIX STUDIO — A FLASH FAN FILM
+            CODEIISH LAB — A FLASH FAN FILM
           </span>
           <p
             className="display title-gradient title-sheen text-center text-[clamp(0.95rem,2.6vw,1.35rem)] tracking-[0.2em]"

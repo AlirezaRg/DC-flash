@@ -67,7 +67,7 @@ export default function TheRunFinale() {
           <div className="video-vignette" aria-hidden="true" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/10" />
           <div className="relative z-40 flex h-full flex-col items-center justify-end gap-4 px-6 pb-16 text-center">
-            <span className="section-kicker">KRYNTIX STUDIO — THE RUN, CONTINUED</span>
+            <span className="section-kicker">CODEIISH LAB — THE RUN, CONTINUED</span>
             <h2 className="display title-gradient title-electric text-[clamp(1.6rem,5vw,2.6rem)]">
               {beat.title}
             </h2>
@@ -113,7 +113,7 @@ export default function TheRunFinale() {
           >
             <span className="hud-badge">
               <span className="hud-badge-dot" />
-              KRYNTIX STUDIO — SCENE {String(i + 1).padStart(2, "0")}/{String(CAPTIONED_BEATS.length).padStart(2, "0")}
+              CODEIISH LAB — SCENE {String(i + 1).padStart(2, "0")}/{String(CAPTIONED_BEATS.length).padStart(2, "0")}
             </span>
             <h3 className="display title-gradient title-electric text-[clamp(1.6rem,5.5vw,3rem)]">
               {beat.title}

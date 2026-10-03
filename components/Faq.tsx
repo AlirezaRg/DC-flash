@@ -10,7 +10,7 @@ import ScrambleReveal from "@/components/scroll/ScrambleReveal";
 const FAQS = [
   {
     q: "Is this an official Flash site?",
-    a: "No — it's an independent fan project by Kryntix Studio. It isn't affiliated with, endorsed by, or produced by Warner Bros., DC, or DC Studios, and all Flash-related trademarks belong to their respective owners.",
+    a: "No — it's an independent fan project by Codeiish Lab. It isn't affiliated with, endorsed by, or produced by Warner Bros., DC, or DC Studios, and all Flash-related trademarks belong to their respective owners.",
   },
   {
     q: "How does the scroll-scrubbing work?",
@@ -21,8 +21,8 @@ const FAQS = [
     a: "Next.js and React, animated with GSAP + ScrollTrigger, smoothed by Lenis, and styled with Tailwind. Every reveal, pin, stacked panel, and parallax layer is hand-built — no page builder.",
   },
   {
-    q: "Where can I see more from Kryntix Studio?",
-    a: "At kryntixstudio.vercel.app, and on Instagram @kryntixstudio — where this and the other fan-site experiments live.",
+    q: "Where can I see more from Codeiish Lab?",
+    a: "At www.codeiish.ir, and on Instagram @codeiish — where this and the other fan-site experiments live.",
   },
 ];
 
@@ -68,7 +68,7 @@ export default function Faq() {
       <div className="mx-auto max-w-3xl">
         <div className="flex flex-col items-center gap-5 text-center">
           <ScrambleReveal as="span" className="section-kicker">
-            KRYNTIX STUDIO — THE BUILD
+            CODEIISH LAB — THE BUILD
           </ScrambleReveal>
           <MixedHeadline
             as="h2"

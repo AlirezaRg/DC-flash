@@ -14,7 +14,7 @@ export default function FootageHeadline() {
       <div className="video-vignette" aria-hidden="true" />
       <Sparks />
       <div className="velocity-skew relative flex flex-col items-center gap-6 px-6 text-center">
-        <span className="section-kicker justify-center">KRYNTIX STUDIO — THE LEGEND</span>
+        <span className="section-kicker justify-center">CODEIISH LAB — THE LEGEND</span>
         <h2
           data-parallax="6"
           className="footage-text display text-[clamp(3rem,16vw,11rem)] leading-[0.88] tracking-[0.01em]"

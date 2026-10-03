@@ -84,7 +84,7 @@ export default function SiteLoader({ progress, ready }: SiteLoaderProps) {
     >
       <div ref={contentRef} className="flex flex-col items-center gap-7">
         <span className="loader-reveal mono text-[0.62rem] uppercase tracking-[0.4em] text-[var(--muted-strong)]">
-          Kryntix Studio Presents
+          Codeiish Lab Presents
         </span>
 
         <svg ref={boltRef} viewBox="0 0 100 140" className="h-28 w-auto" aria-hidden="true">
@@ -112,9 +112,9 @@ export default function SiteLoader({ progress, ready }: SiteLoaderProps) {
         </svg>
 
         <div className="loader-reveal flex items-baseline gap-1.5 leading-none">
-          <span className="display text-2xl tracking-[0.06em] text-[var(--white)]">KRYNTIX</span>
+          <span className="display text-2xl tracking-[0.06em] text-[var(--white)]">CODEIISH</span>
           <span className="mono text-[0.7rem] uppercase tracking-[0.34em] text-[var(--muted-strong)]">
-            Studio
+            Lab
           </span>
         </div>
 

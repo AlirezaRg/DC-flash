@@ -98,7 +98,7 @@ export default function RunBreakdown() {
 
       <div className="relative mx-auto max-w-5xl">
         <div className="reveal-up flex flex-col items-center gap-5 text-center">
-          <span className="section-kicker">KRYNTIX STUDIO — SCENE BREAKDOWN</span>
+          <span className="section-kicker">CODEIISH LAB — SCENE BREAKDOWN</span>
           <MixedHeadline
             as="h2"
             className="display text-glow max-w-2xl text-[clamp(1.7rem,4.6vw,2.8rem)] text-[var(--white)]"
